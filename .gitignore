@@ -1,0 +1,9 @@
+*.mp4
+*.txt
+*.exe
+.vscode
+*.class
+.cph
+*.pdf
+.vscode
+.node_modules
