@@ -83,7 +83,7 @@ Welcome to **Cohort 2.0**, a comprehensive learning journey that takes you from 
 
 ## 📂 Repository Structure
 ```bash
-📦 cohort-2.0
+📦 Cohort-2.0
  ┣ 📂 backend            # Backend Code (Node.js, Express, PostgreSQL, MongoDB)
  ┣ 📂 frontend           # Frontend Code (React.js, Next.js, Tailwind CSS)
  ┣ 📂 devops             # Infrastructure & Deployment (Docker, Kubernetes, AWS)
@@ -95,7 +95,7 @@ Welcome to **Cohort 2.0**, a comprehensive learning journey that takes you from 
 ## 🛠 Setup & Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cohort-2.0.git
+git clone https://github.com/prashant-sagar-shakya/Cohort-2.0.git
 
 # Navigate to the project directory
 cd cohort-2.0
