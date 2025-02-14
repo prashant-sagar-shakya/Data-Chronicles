@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Symantic Tags -->
+    <h3>Symantic Tags, These all are Block Elements</h3>
+    <header>
+        This is header
+    </header>
+    <nav>
+        This is a navigation Bar
+    </nav>
+    <aside>
+    <section>
+        This is a section of page
+    </section>
+    <article>
+        This is an article in the page
+    </article>
+    Section and Article Comes under aside
+    </aside>
+    <footer>
+        This is footer of the page
+    </footer>
+    <!-- Text Formatting Tags -->
+    <h3>Text Fromatting Tags, All are Inline Elements</h3>
+    <b>This is Bold, Used in HTML3</b>
+    <strong>This is also Bold</strong>
+    <u>This is Underlined</u>
+    <i>This is Italic, Used in HTML3</i>
+    <em>This is also Italic</em>
+    <small>This is a small text</small>
+    <sup>This is superscript</sup>
+    <sub>This is subscript</sub>
+    <pre>
+        I'm inside pre tag, no need to Formatting
+        I'm as it is you wrote
+    </pre>
+    <q>I'm in Quotes</q>
+    <br>
+    <br>
+    Now it's Time to a horizontal Line, using hr tag.
+    <hr> <!--A horizontal Line-->
+    <h3>Special Characters</h3>
+    <P>
+        Non breaking space &nbsp; nbsp is used with & sign.
+        <br>
+        Angular Bracket Left &lt; lt is used with & sign.
+        <br>
+        Angular Bracket Right &gt; gt is used with & sign.
+        <br>
+        Apostrophy &apos; apos is used with & sign.
+        <br>
+        Pound &pound; pound is used with & sign.
+        <br>
+        Copyright or Copy sign &copy; copy is used with & sign.
+        <br>
+        Follow CodePen for more references
+    </P>
+    <h3>Tables in HTML</h3>
+    <!-- tr is table row -->
+    <!-- td is table data -->
+    <!-- rowspan for spanning rows -->
+    <!-- colspan for spanning columns -->
+    <table border="2"> <!--Set border of table by using border attribute-->
+        <!-- Defining Table Caption -->
+        <caption>Demo Table</caption>
+        <thead> <!--This is Table header-->
+            <tr> <!--This is Table Row-->
+                <th> <!--This is Table Heading-->
+                    Column 1
+                </th>
+                <th>
+                    Column 2
+                </th>
+                <th>
+                    Column 3
+                </th>
+            </tr>
+        </thead>
+        <tbody> <!--This is Table Body-->
+            <tr>
+                <td>5</td>
+                <td>3</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>9</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Sum1 = 12</th>
+                <th>Sum2 = 12</th>
+                <th>Sum3 = 10</th>
+            </tr>
+        </tfoot>
+    </table>
+    <h3>Tables with Rowspan and Colspan</h3>
+        <table border="2"> <!--Set border of table by using border attribute-->
+        <thead> <!--This is Table header-->
+            <tr> <!--This is Table Row-->
+                <th colspan="2"> <!--This is Table Heading-->
+                    Column 1
+                </th>
+                <th>
+                    Column 2
+                </th>
+            </tr>
+        </thead>
+        <tbody> <!--This is Table Body-->
+            <tr>
+                <td>5</td>
+                <td>3</td>
+                <td rowspan="2">8</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Sum1 = 12, Sum2 = 5</th>
+                <th>Sum3 = 8</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

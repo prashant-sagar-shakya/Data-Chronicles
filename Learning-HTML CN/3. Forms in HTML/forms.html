@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adding Icon To The Page, This is called FAVICON -->
+    <link rel="icon" href="download.jpeg" type="image/x-jpeg" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Forms in HTML</h3>
+    <form action="/action_page.php" method="get">
+      <!-- form methods are get and post (methods of sumission) -->
+      <!-- action contains backend file such as backend.php -->
+      <label for="fname">Firstname: </label>
+      <input
+        type="text"
+        id="fname"
+        name="FirstName"
+        placeholder="Firstname"
+        required
+      />
+      <!-- Here Firstname is Varibale value to store in backend -->
+      <br />
+      <label for="lname">Lastname: </label>
+      <input type="text" id="lname" name="LastName" required /><br />
+      <label for="email">Email: </label>
+      <input type="email" required /> <br />
+      <label for="pass">Password: </label>
+      <input type="password" required /><br />
+      <!-- Radio Tag -->
+      <input type="radio" name="gender" value="male" checked />Male <br />
+      <input type="radio" name="gender" value="female" /> Female <br />
+      <br />
+      <!-- Checkbox -->
+      <input type="checkbox" name="v1" value="bike" /> Bike <br />
+      <input type="checkbox" name="v2" value="car" /> Car <br />
+      <input type="checkbox" name="v3" value="auto" /> Auto <br />
+      <!-- Range Definer -->
+      <input type="range" min="10" max="100" step="5" /><br />
+      <!-- Disabled Attribute -->
+      <input type="text" name="country" value="india" disabled /><br />
+      <!-- Fiedlset and Legend Elemets -->
+      <fieldset>
+        <legend>Subscribe</legend>
+        Name: <input type="text" /> <br />
+        Email: <input type="email" /> <br />
+      </fieldset>
+      <!-- Select Element -->
+      <select name="Select" id="selection">
+        <option value="val1">Value 1</option>
+        <option value="val2">Value 2</option>
+        <option value="val3">Value 3</option>
+        <!-- optgroup element -->
+        <optgroup label="Remaining Values">
+          <option value="val4">Value 4</option>
+          <option value="Val5">Value 5</option>
+        </optgroup>
+      </select>
+      <br />
+      <!--  -->
+      <button onclick="alert('Learn HTML')">Click Me</button><br />
+      <button onclick="location.href='https://www.youtube.com/';">
+        Button for Youtube
+      </button>
+      <br />
+      <!-- Reset and Submit -->
+      <input type="reset" value="Reset" autofocus />
+      <!-- autofocus highlights the button -->
+      <input type="submit" value="Submit" />
+    </form>
+    <h3>Media Attributes</h3>
+    <video controls height="360" width="640" autoplay loop muted>
+      <!-- autoplay autoplays the video when page loads -->
+      <!-- loop repeats the video again and again -->
+      <!-- muted : by default video is muted -->
+      <!-- poster attribute puts thumbnail to video -->
+      <source
+        src="Tere Jaisa Yaar Kahan - Rahul Jain _ Yaara Teri Yaari _ Yaarana _ Kishore Kumar _ Cover.mp4"
+        type="video/mp4"
+      />
+      <!-- Multiple Formats for multiple stream support -->
+      <source
+        src="Tere Jaisa Yaar Kahan - Rahul Jain _ Yaara Teri Yaari _ Yaarana _ Kishore Kumar _ Cover.mkv"
+        type="video/mkv"
+      />
+      <!-- In case of video error -->
+      Your Browser not supports the video
+    </video>
+    <br />
+    <audio controls>
+      <source src="Rasiya Brahmastra 128 Kbps.mp3" type="audio/mp3" />
+      <!-- Multiple Formats for multiple stream support -->
+      <source src="Rasiya Brahmastra 128 Kbps.avi" type="audio/avi" />
+      <!-- In case of audio error -->
+      Your Browser not supports the audio
+    </audio>
+
+    <h3>iframe Tag, Used to link a webpage</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/AR6eQCi_Me4?si=jISNWFDRKQzWg4V1&amp;start=199"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <h3>Figure element</h3>
+    <figure>
+      <img
+        src="download (2).jpeg"
+        alt="downloaded image"
+        width="160"
+        height="90"
+      />
+      <!-- Caption to Figure -->
+      <figcaption>fig1. Caption</figcaption>
+    </figure>
+  </body>
+</html>

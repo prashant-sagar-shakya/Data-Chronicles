@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Traversing a node -->
+        <ul class="subjects">
+            <li>Maths</li>
+            <li class="fav-subject">Science</li>
+            <li>English</li>
+        </ul>
+    </body>
+    <script src="script.js"></script>
+</html>
+
+<!-- Creating an Element -->
+<!-- Console => document.createElement('h1'); // It is only created not added to DOM, to add it to DOM use append method -->
+<!-- Console => const heading = document.createElement('h1'); -->
+<!-- console.log(heading); // <h1></h1> -->
+
+<!-- Console => const body = document.querySelector('body');
+console.log(body); // <body></body> -->
+<!-- body.appendChild(heading); -->
+<!-- console.log(body); // <body><h1></h1></body> -->
+
+<!-- heading.innerText = 'Hello, World!'; -->
+<!-- console.log(body); // <body><h1>Hello, World!</h1></body> -->
+
+<!-- Traversing a node -->
+<!-- Console => const subjects = document.querySelector('.subjects');
+console.log(subjects); // <ul class="subjects"></ul> -->
+<!-- subjects.firstElementChild // <li>Maths</li>
+subjects.lastElementChild // <li>English</li> -->
+<!-- Console => const favSubject = document.querySelector('.fav-subject');
+console.log(favSubject); // <li class="fav-subject">Science</li>  -->
+<!-- Previous and next Sibling
+favSubject.previousElementSibling // <li>Maths</li>
+favSubject.nextElementSibling // <li>English</li> -->
+<!-- Parent Element
+favSubject.parentElement // <ul class="subjects"></ul> -->
+<!-- favSubject.childNodes // [<li>Maths</li>, <li>English</li>] -->
+
+<!-- Removing a node -->
+<!-- Console => favSubject.remove();
+console.log(subjects); --->

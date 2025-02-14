@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.btn{
+    @apply px-4 py-2 bg-purple-800 text-white text-sm rounded-md hover:bg-purple-700 active:bg-purple-900
+}
+@tailwind utilities;
