@@ -1,104 +1,56 @@
-# Cohort 2.0 - Full Stack Mastery
+# Web Development & DevOps Journey 🚀
 
-![Cohort 2.0](cohort2.jpeg)
-
-Welcome to **Cohort 2.0**, a comprehensive learning journey that takes you from **0 to 100** in Full Stack Development. This course is structured to build strong foundations, dive deep into advanced backend and frontend concepts, and equip you with DevOps and system design knowledge through real-world projects.
-
-## 🚀 Course Structure
-
-### 🔥 0-1: The Foundations
-
-#### 📌 **JavaScript & Node.js**
-- Understanding JavaScript internals and its async nature
-- Introduction to Node.js and its runtime
-- Deep dive into NoSQL (MongoDB) and SQL (PostgreSQL)
-- TypeScript from beginner to advanced
-
-#### 🏗 **Backend Development**
-- Express.js from basics to advanced
-- Backend communication protocols
-- ORMs and database integration
-- Middlewares, routes, status codes, and error handling
-- API validation with **Zod**
-- MonoRepos & **Turborepo**
-- Serverless backends and **OpenAPI Spec**
-- Authentication using external libraries
-- Scaling Node.js and performance benchmarks
-- Deploying NPM packages
-
-#### 🎨 **Frontend Development**
-- Reconcilers and frontend frameworks
-- React from beginner to advanced
-- Internals of state, Context API, and state management with **Recoil**
-- Deep dive into **Tailwind CSS**
-- Containerization with **Docker**
-- Next.js and **custom hooks**
-- Authentication using **NextAuth**
-
-#### ⚙️ **Basic DevOps**
-- Docker end-to-end
-- Deploying applications on **AWS servers**
-- Exploring modern cloud platforms like **Fly.io / Remix**
-- Setting up **Nginx & Reverse Proxies**
-
-#### 🛠 **Projects**
-- **Google Summer of Code (GSoC) Project** - Issue setup and resolution
-- **Building a Paytm/Wallet Clone** - End-to-end development
+Welcome to my **Web Development & DevOps Journey** repository! This repository documents my learning path in **Web Development, Cloud, and DevOps**, including structured resources, projects, and notes from various courses and learning platforms.
 
 ---
 
-### 🔥 1-100: Advanced Topics & System Design
+## 📌 Repository Highlights
+### 🔹 Web Development Learning Paths
+This repository contains structured learning materials from various sources, including:
 
-#### 📌 **Advanced Backend Development & System Design**
-- Advanced backend communication strategies
-- Message queues and **PubSub** systems
-- **Proxies & Load Balancers**
-- Redis and Kafka deep dive
-- Common Design Patterns in JavaScript
-- Advanced database concepts (Indexing, Normalization)
-- **Rate Limiting & DDoS Protection** (Captchas, Sharding, Resiliency)
-- Horizontal & Vertical Scaling
-- WebSockets, Polling, and **gRPC**
-- Capacity estimation & **CAP Theorem**
-- Testing Node.js applications in 2023
-- **WebRTC & Real-time communication**
+- **JavaScript-Chai-Aur-Code** – Learning JavaScript from the Chai Aur Code series.
+- **JavaScript-JSM** – JavaScript concepts from **JavaScript Mastery (JSM)**.
+- **Learning-HTML CN** – HTML learning from **Code with Harry (CWH)**.
+- **Learning-React HuXn** – Hands-on React.js learning from HuXn.
+- **Learning-React-JSM/example** – React.js projects and examples from **JavaScript Mastery (JSM)**.
+- **Learning-Tailwind CWH** – Tailwind CSS concepts from **Code with Harry (CWH)**.
 
-#### 🖥 **Advanced DevOps**
-- Container orchestration with **Docker Swarm & Kubernetes**
-- CI/CD Pipelines
-- Monitoring Systems with **Prometheus & Grafana**
-- **New Relic** as a paid monitoring service
-- Serverless deep dive
-- AWS Constructs (**EC2, S3, CDNs, Load Balancers, EKS**)
+### 🔹 Cohort 2.0 – Full-Stack Development + DevOps
+This repository also includes my journey through **Cohort 2.0**, an intensive **full-stack development** course covering:
 
-#### 🛠 **Real-World Projects**
-- **Zerodha Clone** - Full-fledged trading platform
-- **Zapier Clone** - Workflow automation
-- Contributing to **real-world open-source projects**
-
-## 📌 Tech Stack
-- **Backend**: Node.js, Express.js, TypeScript, MongoDB, PostgreSQL, Redis, Kafka, gRPC
-- **Frontend**: React.js, Next.js, Recoil, Tailwind CSS, NextAuth
-- **DevOps**: Docker, Kubernetes, Nginx, AWS, Prometheus, Grafana
-
-## 🛠 Setup & Installation
-```bash
-# Clone the repository
-git clone https://github.com/prashant-sagar-shakya/Cohort-2.0.git
-
-# Navigate to the project directory
-cd cohort-2.0
-
-# Install dependencies
-npm install  # For backend/frontend
-```
-
-## 🤝 Contributing
-We welcome contributions! Feel free to submit PRs, open issues, or suggest improvements.
-
-## 📜 License
-This project is licensed under the **MIT License**.
+- **Frontend Development** – React, Next.js, Tailwind CSS, and UI/UX best practices.
+- **Backend Development** – Node.js, Express, MongoDB, PostgreSQL, and RESTful APIs.
+- **DevOps & Cloud** – Docker, Kubernetes, CI/CD, AWS, Azure, and automation.
+- **System Design** – Scalable architecture, microservices, and distributed systems.
+- **Real-World Projects** – Hands-on implementations of full-stack and DevOps solutions.
 
 ---
 
-🚀 **Master Full Stack Development with Cohort 2.0!**
+## 🚀 Get Started
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/prashant-sagar-shakya/DevOps-Data-Chronicles.git
+   ```
+2. **Explore the Topics:**
+   Navigate through the folders to find learning resources and projects.
+3. **Stay Updated:**
+   Watch the repository for new additions and updates.
+
+---
+
+## 🎯 Expected Outcomes
+✅ Gain hands-on experience in **Web Development & DevOps**.
+✅ Master JavaScript, React, Tailwind CSS, and full-stack concepts.
+✅ Learn **Cloud & DevOps** best practices for real-world applications.
+✅ Build a strong portfolio with **real-world projects**.
+✅ Prepare for **technical interviews and job opportunities**.
+
+---
+
+## 🤝 Contributions
+This repository is open for collaboration! Feel free to explore, contribute, or provide feedback.
+
+📢 **Stay connected!** Follow for more updates and structured learning content.
+
+⭐ **If you find this repository helpful, don't forget to star it!**
+
