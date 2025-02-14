@@ -81,17 +81,6 @@ Welcome to **Cohort 2.0**, a comprehensive learning journey that takes you from 
 - **Frontend**: React.js, Next.js, Recoil, Tailwind CSS, NextAuth
 - **DevOps**: Docker, Kubernetes, Nginx, AWS, Prometheus, Grafana
 
-## 📂 Repository Structure
-```bash
-📦 Cohort-2.0
- ┣ 📂 backend            # Backend Code (Node.js, Express, PostgreSQL, MongoDB)
- ┣ 📂 frontend           # Frontend Code (React.js, Next.js, Tailwind CSS)
- ┣ 📂 devops             # Infrastructure & Deployment (Docker, Kubernetes, AWS)
- ┣ 📂 projects           # Real-world project implementations
- ┣ 📜 README.md          # This file
- ┗ 📜 .gitignore         # Git ignore file
-```
-
 ## 🛠 Setup & Installation
 ```bash
 # Clone the repository
