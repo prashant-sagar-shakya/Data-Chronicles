@@ -4,6 +4,8 @@
 .vscode
 *.class
 .cph
+*.mkv
+*.m4a
 *.pdf
 .vscode
 .node_modules
